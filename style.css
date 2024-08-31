@@ -1,0 +1,141 @@
+/* -- Media Queries -- */
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* -- Body -- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #4b5b6e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* -- Header -- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fd000000;
+  color: rgb(38, 194, 194);
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  width: 100%;
+  background-color: #4b5b6e;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* -- Container -- */
+.container {
+  text-align: center;
+}
+
+/* -- Content -- */
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  text-align: center;
+}
+
+/* -- Headings -- */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* -- Input -- */
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+/* -- Button -- */
+button {
+  padding: 10px 20px;
+  background-color: #597ca1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #39393a;
+}
+
+/* -- Result -- */
+#result {
+  font-size: 16px;
+  margin-top: 10px;
+  word-wrap: break-word;
+  color: #333;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: none; /* Awalnya disembunyikan */
+}
+
+/* -- Copy Button -- */
+#copyBtn {
+  background-color: #597ca1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#copyBtn:hover {
+  background-color: #39393a;
+}
+
+#pesan {
+  color: #4b5b6e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* -- Footer -- */
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
